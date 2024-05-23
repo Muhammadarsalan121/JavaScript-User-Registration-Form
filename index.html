@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Submition Form</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body >
+    <section class="container">
+        <form id="btn">
+          <h1 class="text-dark mt-2 ">Register</h1>
+          <input maxlength="8"
+          minlength="3" id="userName" class="mt-5" type="text" placeholder="ENTER YOUR NAME">
+          <input id="email" type="email" placeholder="ENTER YOUR EMAIL">
+          <input maxlength="13" minlength="13" id="CNIC" type="number" placeholder="ENTER YOUR CNIC NUMBER">
+          <input id="password" type="password" placeholder="ENTER YOUR PASSWORD">
+          <button class="mt-4" type="submit">Submit</button>
+        </form>
+        <p class="mt-4"><B>Form validations Required :</B> <br>
+            <b>Username =</b> Min 4 character max 15 characters. <br>
+             <b>Email =</b> Min 8 characters atleast one capital letter and one special character. <br>
+            <b>Password =</b> Min 8 characters atleast one capital letter and one special character. <br>
+            <b>CNIC =</b> Must be Pakistani CNIC. <br>
+           <b> Age =</b> Required min 18 and max 60</p>
+    </section>
+
+
+
+   
+    <script src="main.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
